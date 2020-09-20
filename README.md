@@ -16,14 +16,14 @@ Integration of Spring boot and Vue the easy way
 
 2. Add  `Controller`
 
-   ```kotlin
-   @Controller
-class HomeContoller {
-    @RequestMapping("/")
-    fun index(): String {
-        return "index.html"
-    }
-}
+   ```
+       @Controller
+        class HomeContoller {
+            @RequestMapping("/")
+            fun index(): String {
+                return "index.html"
+            }
+        }
    ```
 
 
