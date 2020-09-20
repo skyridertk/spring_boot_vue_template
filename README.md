@@ -16,7 +16,7 @@ Integration of Spring boot and Vue the easy way
 
 2. Add  `Controller`
 
-   ```
+   ```kotlin
        @Controller
         class HomeContoller {
             @RequestMapping("/")
@@ -31,7 +31,7 @@ Integration of Spring boot and Vue the easy way
 ### Run using docker
 Create `Dockerfile` in `project root` and use `your_file`.jar (found in `build/libs`)
 
-```
+```dockerfile
 FROM openjdk:8-jre-alpine
 
 ENV APPLICATION_USER springboot
